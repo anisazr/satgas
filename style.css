@@ -1,0 +1,135 @@
+:root {
+  --blue-light: #3AAEF4;
+  --blue-dark: #0E2A74;
+  --text-color: #333;
+  --white: #fff;
+  --danger: #FF4B4B;
+  --bg-soft: #f7faff;
+}
+
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: var(--bg-soft);
+  color: var(--text-color);
+  line-height: 1.6;
+}
+
+/* Header */
+header {
+  background: linear-gradient(135deg, var(--blue-dark), var(--blue-light));
+  color: var(--white);
+  padding: 1.5rem 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.logo {
+  width: 80px;
+  height: auto;
+}
+
+.header-text h1 {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.header-text p {
+  font-size: 0.9rem;
+  opacity: 0.9;
+}
+
+/* Tombol laporan */
+.report-btn {
+  background-color: var(--danger);
+  color: var(--white);
+  padding: 10px 18px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.report-btn:hover {
+  background-color: #d62828;
+}
+
+/* Navbar */
+nav {
+  background-color: var(--white);
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  flex-wrap: wrap;
+}
+
+nav ul li {
+  margin: 0.5rem 1rem;
+}
+
+nav a {
+  color: var(--blue-dark);
+  text-decoration: none;
+  font-weight: bold;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+nav a:hover {
+  background-color: var(--blue-light);
+  color: var(--white);
+}
+
+/* Section */
+section {
+  padding: 2rem;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+section h2 {
+  color: var(--blue-dark);
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+section p, section ul {
+  text-align: justify;
+}
+
+.struktur-img {
+  display: block;
+  margin: 1rem auto;
+  max-width: 100%;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+/* Footer */
+footer {
+  background: linear-gradient(135deg, var(--blue-dark), var(--blue-light));
+  color: var(--white);
+  text-align: center;
+  padding: 1rem;
+  margin-top: 2rem;
+  font-size: 0.9rem;
+}
