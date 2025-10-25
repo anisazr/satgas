@@ -1,9 +1,9 @@
 :root {
-  --blue-light: #3AAEF4;
-  --blue-dark: #0E2A74;
+  --blue-light: #3aaef4;
+  --blue-dark: #0e2a74;
   --text-color: #333;
   --white: #fff;
-  --danger: #FF4B4B;
+  --danger: #ff4b4b;
   --bg-soft: #f7faff;
 }
 
@@ -16,7 +16,7 @@
 
 /* Body */
 body {
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   background-color: var(--bg-soft);
   color: var(--text-color);
   line-height: 1.6;
@@ -42,6 +42,7 @@ header {
 .logo {
   width: 80px;
   height: auto;
+  color: white;
 }
 
 .header-text h1 {
@@ -72,7 +73,7 @@ header {
 /* Navbar */
 nav {
   background-color: var(--white);
-  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
 }
 
 nav ul {
@@ -112,7 +113,8 @@ section h2 {
   margin-bottom: 1rem;
 }
 
-section p, section ul {
+section p,
+section ul {
   text-align: justify;
 }
 
@@ -121,7 +123,7 @@ section p, section ul {
   margin: 1rem auto;
   max-width: 100%;
   border-radius: 8px;
-  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
 }
 
 /* Footer */
