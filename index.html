@@ -5,95 +5,170 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Satgas PPKPT Universitas Ary Ginanjar</title>
     <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
   </head>
   <body>
-    <!-- HEADER -->
-    <header>
-      <div class="logo-container">
-        <img src="assets/logo.png" alt="Logo UAG" class="logo" />
-        <div class="header-text">
-          <h1>Satgas PPKPT Universitas Ary Ginanjar</h1>
-          <p>
-            Pencegahan dan Penanganan Kekerasan di Lingkungan Perguruan Tinggi
-          </p>
+    <nav class="navbar navbar-expand-lg navbar-dark bg">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <img src="assets/nav-logo.png" alt="" class="nav-logo" />
+        </a>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#"
+                >Beranda</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#profil">Profil</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#struktur">Struktur</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#himbauan">Himbauan</a>
+            </li>
+            <li class="nav-item ms-2">
+              <button type="button" class="btn btn-danger">
+                <a href="https://api.whatsapp.com/send?phone=087865249075">
+                  Lapor Sekarang
+                </a>
+              </button>
+            </li>
+          </ul>
         </div>
       </div>
-      <a href="https://wa.me/qr/2ZT6Z3BZJV6PH1" class="report-btn"
-        >Lapor Sekarang</a
-      >
-    </header>
-
-    <!-- NAVBAR -->
-    <nav>
-      <ul>
-        <li><a href="#profil">Profil</a></li>
-        <li><a href="#struktur">Struktur</a></li>
-        <li><a href="#himbauan">Himbauan</a></li>
-        <li><a href="#kontak">Kontak</a></li>
-      </ul>
     </nav>
 
     <!-- PROFIL -->
-    <section id="profil">
-      <h2>Profil Satgas</h2>
-      <p>
-        Satgas PPKPT Universitas Ary Ginanjar dibentuk sebagai upaya mewujudkan
-        lingkungan kampus yang aman, nyaman, dan bebas dari kekerasan. Kami
-        berkomitmen untuk menegakkan nilai-nilai kemanusiaan, keadilan, serta
-        memberikan layanan yang berpihak pada korban.
-      </p>
-    </section>
+    <div class="container">
+      <section id="profil">
+        <h2 class="text-center">Profil Satgas</h2>
+        <p>
+          Satgas PPKPT Universitas Ary Ginanjar dibentuk sebagai upaya
+          mewujudkan lingkungan kampus yang aman, nyaman, dan bebas dari
+          kekerasan. Kami berkomitmen untuk menegakkan nilai-nilai kemanusiaan,
+          keadilan, serta memberikan layanan yang berpihak pada korban.
+        </p>
+      </section>
 
-    <!-- STRUKTUR -->
-    <section id="struktur">
-      <h2>Struktur Organisasi</h2>
-      <img
-        src="struktur.png"
-        alt="Struktur Organisasi Satgas PPKPT"
-        class="struktur-img"
-      />
-      <p>
-        Struktur Satgas terdiri dari Ketua, Sekretaris, Divisi Pencegahan,
-        Divisi Penanganan, dan Divisi Pemulihan. Setiap anggota berperan aktif
-        dalam menciptakan ruang kampus yang aman dan bermartabat.
-      </p>
-    </section>
+      <!-- STRUKTUR -->
+      <section id="struktur">
+        <h2 class="text-center">Struktur Organisasi</h2>
+        <img
+          src="struktur.png"
+          alt="Struktur Organisasi Satgas PPKPT"
+          class="struktur-img"
+        />
+        <p>
+          Struktur Satgas terdiri dari Ketua, Sekretaris, Divisi Pencegahan,
+          Divisi Penanganan, dan Divisi Pemulihan. Setiap anggota berperan aktif
+          dalam menciptakan ruang kampus yang aman dan bermartabat.
+        </p>
+      </section>
 
-    <!-- HIMBAUAN -->
-    <section id="himbauan">
-      <h2>Himbauan</h2>
-      <ul>
-        <li>Hormati sesama tanpa kekerasan fisik maupun verbal.</li>
-        <li>Laporkan setiap bentuk pelecehan atau kekerasan kepada Satgas.</li>
-        <li>Jaga etika komunikasi di lingkungan kampus dan media sosial.</li>
-        <li>Berani bersuara demi keadilan dan keselamatan bersama.</li>
-      </ul>
-    </section>
+      <!-- HIMBAUAN -->
+      <section id="himbauan">
+        <h2>Himbauan</h2>
+        <ul>
+          <li>Hormati sesama tanpa kekerasan fisik maupun verbal.</li>
+          <li>
+            Laporkan setiap bentuk pelecehan atau kekerasan kepada Satgas.
+          </li>
+          <li>Jaga etika komunikasi di lingkungan kampus dan media sosial.</li>
+          <li>Berani bersuara demi keadilan dan keselamatan bersama.</li>
+        </ul>
+      </section>
+    </div>
 
-    <!-- KONTAK -->
-    <section id="kontak">
-      <h2>Kontak Kami</h2>
-      <p>
-        📍 Menara 165, Jl. Let. Jend. T.B. Simatupang Kav. 1, TB Simatupang,
-        Jakarta Selatan
-      </p>
-      <p>
-        🌐
-        <a
-          href="https://maps.app.goo.gl/5CyxRb4Q92iBp4mH8?g_st=aw"
-          target="_blank"
-          >Lihat di Google Maps</a
-        >
-      </p>
-      <p>📞 Hotline: +62 812-3456-7890</p>
-      <p>📧 Email: satgas.ppkpt@uag.ac.id</p>
-    </section>
+    <!-- Footer -->
+    <footer class="text-center text-lg-start bg-body-tertiary text-muted">
+      <!-- Section: Social media -->
+      <section
+        class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom"
+      >
+        <!-- Left -->
+        <div class="me-5 d-none d-lg-block">
+          <span>Get connected with us on social networks:</span>
+        </div>
 
-    <!-- FOOTER -->
-    <footer>
-      <p>
+        <!-- Right -->
+        <div>
+          <a href="" class="me-4 text-reset">
+            <i class="fab fa-facebook-f"></i>
+          </a>
+          <a href="" class="me-4 text-reset">
+            <i class="fab fa-twitter"></i>
+          </a>
+          <a href="" class="me-4 text-reset">
+            <i class="fab fa-google"></i>
+          </a>
+          <a href="" class="me-4 text-reset">
+            <i class="fab fa-instagram"></i>
+          </a>
+          <a href="" class="me-4 text-reset">
+            <i class="fab fa-linkedin"></i>
+          </a>
+          <a href="" class="me-4 text-reset">
+            <i class="fab fa-github"></i>
+          </a>
+        </div>
+      </section>
+
+      <!-- Section: Links -->
+      <section>
+        <div class="container text-center text-md-start mt-5">
+          <div class="row mt-3">
+            <!-- Grid column: Map -->
+            <div class="col-md-3 col-lg-6 col-xl-6 mx-auto mb-4">
+              <h6 class="text-uppercase fw-bold mb-4">
+                <i class="fas fa-gem"></i>Kantor SATGAS PPKPT
+              </h6>
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4234.311565328289!2d106.80954609999999!3d-6.2907519!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f1fa5b9f59a3%3A0x772f6f7bc1fbc6c0!2sMenara%20165!5e1!3m2!1sen!2sid!4v1761461438898!5m2!1sen!2sid"
+                width="400"
+                height="200"
+                style="border: 0"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+              ></iframe>
+              <p class="h6">
+                Menara 165, Jl. Let. Jend. T.B. Simatupang Kav. 1, TB
+                Simatupang, Jakarta Selatan
+              </p>
+            </div>
+
+            <!-- Grid column: Contact -->
+            <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+              <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
+              <p><i class="fas fa-phone"></i> +62 812-3456-7890</p>
+              <p><i class="fas fa-envelope"></i> satgas.ppkpt@uag.ac.id</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Copyright -->
+      <div
+        class="text-center p-4"
+        style="background-color: rgba(0, 0, 0, 0.05)"
+      >
         &copy; 2025 Satgas PPKPT Universitas Ary Ginanjar. Semua Hak Dilindungi.
-      </p>
+      </div>
     </footer>
+    <!-- Footer -->
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
